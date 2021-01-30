@@ -9,6 +9,8 @@ basic.forever(function () {
         basic.showString("E")
     } else if (degrees == 135) {
         basic.showString("SE")
+    } else if (degrees == 119) {
+        basic.showString("Q")
     } else if (degrees < 225) {
         basic.showString("S")
     } else if (degrees == 225) {
